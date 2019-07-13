@@ -1,0 +1,28 @@
+<div qv-extension style="height: 100%; position: relative; overflow: auto;">
+	<div class="columns qv-object-card qv-object-animated qv-object-fadeInRight tooltip" data-tooltip="{{row[0].qText}}" data-element="{{row[0].qElemNumber}}" ng-repeat="row in layout.qHyperCube.qDataPages[0].qMatrix">
+			              
+		<div class="column col-12 text-center">		
+			<figure class="avatar badge" title="{{row[0].qText}}" data-initial="pl">
+				<img src="{{row[0].qAttrExps.qValues[0].qText}}" alt="T">
+			</figure>
+		</div>
+		<div class="column col-12 text-center">		
+			<div class="columns">
+				<div class="col-12">
+					<b>{{row[0].qText}}</b>
+				</div>
+			</div>
+			<div class="columns">
+				<div class="col-4">
+					{{layout.qHyperCube.qMeasureInfo[0].qFallbackTitle}}: {{row[1].qText}}
+				</div>
+				<div class="col-4">
+					{{layout.qHyperCube.qMeasureInfo[1].qFallbackTitle}}: {{row[2].qText}}
+				</div>
+				<div class="col-4">
+					{{layout.qHyperCube.qMeasureInfo[2].qFallbackTitle}}: {{row[3].qText}}
+				</div>
+			</div>
+		</div>                           
+	</div>
+</div>

@@ -1,0 +1,20 @@
+{
+	"name": "Game-KPI",
+	"description": "game KPI extension",
+	"bundle": {
+        "id": "Kab-s Game Example Bundle",
+        "name": "Kab-s Game Example Bundle",
+        "description": "These are set of example extensions designed to support the Data Literacy Project"
+    },
+	"icon": "table",
+	"type": "visualization",
+	"version": "1.0.0",
+	"author": "Kabir Rab",
+	"homepage": "https://kabonline.net",
+	"keywords": "qlik-sense, visualization",
+	"license": "MIT",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
