@@ -6,7 +6,7 @@
         "name": "Kab-s Game Example Bundle",
         "description": "These are set of example extensions designed to support the Data Literacy Project"
     },
-	"icon": "table",
+	"icon": "list",
 	"type": "visualization",
 	"version": "1.0.0",
 	"author": "Kabir Rab",
