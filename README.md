@@ -21,7 +21,7 @@ Download this repo as .zip file. Once downloaded unzip all it's content to the f
 Download this repo as .zip file. Once downloaded, use the QMC to upload the zip file just like any other extensions.
 
 # How to use
-Go to "edit" mode of a Qlik sense app. Then Custom objects > "Kab-s Game Example Bundle" > Game-KPI. Drag this to the work space and select your Dimension. You can add up to 3 Measures. For avatar to work - you will have to upload them in the content library and provide the address for each image for each dimension using a mapping table (see the sreenshot below for an example mapping table). Images can be displayed from other internet sources too (ex - twitter profile picture etc) 
+Go to "edit" mode of a Qlik sense app. Then Custom objects > "Kab-s Game Example Bundle" > Game-KPI. Drag this to the work space and select your Dimension. You can add up to 3 Measures. For avatar to work - you will have to upload them in the content library and provide the address for each image for each dimension using a mapping table (see the screenshot below for an example mapping table). Images can be displayed from other internet sources too (ex - twitter profile picture etc) 
 <p align="center">
   <img width="90%" alt="variable Manager in action" src="https://github.com/kabir-rab/Game-KPI/blob/master/lib/img/mapping.png">
 </p>
