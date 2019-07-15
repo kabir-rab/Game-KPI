@@ -4,11 +4,12 @@ define( [	"jquery",
 			"./lib/js/initialProps",
 			"text!./template.html",
 			"text!./lib/css/game-KPI.css",
-			"text!./lib/css/spectre.min.css"	
+			"text!./lib/css/spectre.min.css",
+			"./lib/js/directives",	
 		],
 
 
-	function ($, qlik, props, initProps, template, gameCSS, cssContent  ) {'use strict';
+	function ($, qlik, props, initProps, template, gameCSS, cssContent, directives  ) {'use strict';
 		$("<style>").html(cssContent).appendTo("head");
 		$("<style>").html(gameCSS).appendTo("head");
 		var support = {	snapshot: true,
@@ -20,23 +21,20 @@ define( [	"jquery",
 			definition : props,
 			support : support,
 			template: template,
-
+			
 			controller: ['$scope', function ( $scope ) {
 				//console.log('image location', $scope.layout);
-				//console.log("element number", $scope.layout.qHyperCube.qDataPages[0].qMatrix[0][0].qElemNumber);
+				//console.log("element number", $scope.layout.qHyperCube.qDataPages[0].qMatrix[0][0].qElemNumber);								
 			}],
-
 
 			paint: function ($element) {
 
-				var self = this;
+				var self = this;				
 
-				$element.find('.qv-object-card').on('click', function() {
-					if(this.hasAttribute("data-element")) {
-						var value = parseInt(this.getAttribute("data-element"), 10), dim = 0;
-						self.backendApi.selectValues(dim, [value], false);
-					}
-				});				
+				self.$scope.selection = function(datavalue) {							
+					self.backendApi.selectValues(0, [datavalue], false);						
+				}
+							
 				return qlik.Promise.resolve();
 			}
 		};

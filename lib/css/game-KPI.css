@@ -1,8 +1,8 @@
-.qv-object-avatar {
+.qv-object-game-kpi-avatar {
 	margin: 5px;
 }
 
-.qv-object-card {
+.qv-object-game-kpi-card {
     padding-bottom: 1rem;
     padding-top: 1rem;
     margin: 1rem;
@@ -11,12 +11,12 @@
 	box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15);
 }
 
-.qv-object-animated {
+.qv-object-game-kpi-animated {
 	-webkit-animation-duration: 0.75s;
 	animation-duration: 0.75s;	
 }
 
-@-webkit-keyframes qv-object-fadeInRight {
+@-webkit-keyframes qv-object-game-kpi-fadeInRight {
 0% {
    opacity: 0;
    -webkit-transform: translateY(20px);
@@ -27,7 +27,7 @@
 }
 }
 
-@keyframes qv-object-fadeInRight {
+@keyframes qv-object-game-kpi-fadeInRight {
 0% {
    opacity: 0;
    transform: translateY(20px);
@@ -38,7 +38,7 @@
 }
 }
 
-.qv-object-fadeInRight {
--webkit-animation-name: qv-object-fadeInRight;
-animation-name: qv-object-fadeInRight;
+.qv-object-game-kpi-fadeInRight {
+    -webkit-animation-name: qv-object-game-kpi-fadeInRight;
+    animation-name: qv-object-game-kpi-fadeInRight;
 }
