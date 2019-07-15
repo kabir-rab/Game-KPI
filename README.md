@@ -1,5 +1,5 @@
 # Game-KPI
-This is a Qlik Sense KPI object extension example. This uses "Spectre" css framework. Please note - this framework needs bootstrapping before using it in production environment as there are some clashes with default Qlik styling. This extension is supposed to be only an example and can/will work on production environment, however will clash with some of Qlik's styling (accordion menu header, Data model viewer.. these will have slightly different font styling)
+This is a Qlik Sense KPI object extension example. This uses "Spectre" css framework. Please note - this framework needs adding scope to it before using it in production environment as there are some clashes with default Qlik styling. Here is the link to the [scss](https://github.com/picturepan2/spectre "Spectre GitHub") files for the framework, please feel free to use your own method to apply scope to it. I may do this when and if I get any time. This extension is supposed to be only an example and can/will work on production environment, however will clash with some of Qlik's styling (accordion menu header, Data model viewer.. these will have slightly different font styling)
 
 
 _IMPORTANT! This was developed for a specific use case - used in a data literacy project! This may not be supported going forward._
@@ -28,4 +28,4 @@ Go to "edit" mode of a Qlik sense app. Then Custom objects > "Kab-s Game Example
 
 # Known bugs and limitations
  - Quick Selection Mode only.
- - Spectre css requires bootstrapping, some minor clashes with Qlik's styling.
+ - Spectre css needs adding scope to as there are some minor clashes with Qlik's styling.
