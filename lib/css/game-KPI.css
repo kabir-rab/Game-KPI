@@ -1,8 +1,15 @@
+.qv-object-game-kpi-container {
+    padding-left: 0.6rem; 
+    height: 100%; 
+    position: relative; 
+    overflow-x: hidden;
+}
 .qv-object-game-kpi-avatar {
 	margin: 5px;
 }
 
 .qv-object-game-kpi-card {
+    width: 99.4%;
     padding-bottom: 1rem;
     padding-top: 1rem;
     margin: 1rem;

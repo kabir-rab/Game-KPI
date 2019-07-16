@@ -1,13 +1,13 @@
-define( [	"jquery",
-			"qlik",
-			"./lib/js/property",
-			"./lib/js/initialProps",
-			"text!./template.html",
-			"text!./lib/css/game-KPI.css",
-			"text!./lib/css/spectre.min.css",
-			"./lib/js/directives",	
-		],
-
+define( [	
+		"jquery",
+		"qlik",
+		"./lib/js/property",
+		"./lib/js/initialProps",
+		"text!./template.html",
+		"text!./lib/css/game-KPI.css",
+		"text!./lib/css/spectre.min.css",
+		"./lib/js/directives",	
+	],
 
 	function ($, qlik, props, initProps, template, gameCSS, cssContent, directives  ) {'use strict';
 		$("<style>").html(cssContent).appendTo("head");
@@ -38,5 +38,5 @@ define( [	"jquery",
 				return qlik.Promise.resolve();
 			}
 		};
-
-} );
+	} 
+);
