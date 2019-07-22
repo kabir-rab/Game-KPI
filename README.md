@@ -1,3 +1,7 @@
+# This has now evolved to [Dimensional-Score-Card](https://github.com/kabir-rab/Dimensional-Score-Card) project. Please use the new version.
+
+------------
+
 # Game-KPI
 This is a Qlik Sense KPI object extension example. This uses "Spectre" css framework. Please note - this framework has been scoped to avoid clashes with Qlik Styling. This extension is supposed to be only an example and can/will work on production environment.
 
